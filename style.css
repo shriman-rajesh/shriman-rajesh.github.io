@@ -1,0 +1,90 @@
+    html, body {
+  margin: 0;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.full-page-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;  
+  width: 100%;
+  height: 100vh;
+  padding-top: 2rem;  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0);  
+}
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+  color:#cc2900;
+}
+ul li a.active {  /* Darker background */
+  color: #cc2900;              /* Gold text color */
+  font-weight: bold;           /* Makes text bolder */
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;  /* Improves readability */
+  max-width: 60rem;  /* Prevents text from being too wide */
+  text-align: center; /* Centers text like your headings */
+  margin: 1.5rem auto;  /* Centers the paragraph block */
+}
+body {
+  padding-top: 5rem;  
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pdf-container {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+
+}
+
+.centered-pdf {
+  width: 70%;
+  height: 85vh;
+  border: none;
+}
+.pdf-footer, .pdf-text {
+  width: 70%;              
+  text-align: left;     
+  padding-bottom: 0.5rem;
+
+}
+.pdf-footer a {
+  text-decoration: underline;  /* Removes underline */
+  color: #000000;         /* Default color - matches your navbar */
+  transition: color 0.3s ease;  /* Smooth color transition */
+}
+
+.pdf-footer a:hover {
+  color: #cc2900;         /* Changes to blue on hover */
+}
