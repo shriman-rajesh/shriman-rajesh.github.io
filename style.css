@@ -42,17 +42,17 @@ ul li a:hover {
   background-color: #111111;
   color:#cc2900;
 }
-ul li a.active {  /* Darker background */
-  color: #cc2900;              /* Gold text color */
-  font-weight: bold;           /* Makes text bolder */
+ul li a.active {  
+  color: #cc2900;              
+  font-weight: bold;           
 }
 p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
-  line-height: 1.6;  /* Improves readability */
-  max-width: 60rem;  /* Prevents text from being too wide */
-  text-align: center; /* Centers text like your headings */
-  margin: 1.5rem auto;  /* Centers the paragraph block */
+  line-height: 1.6; 
+  max-width: 60rem; 
+  text-align: center; 
+  margin: 1.5rem auto;  
 }
 body {
   padding-top: 5rem;  
@@ -80,9 +80,9 @@ body {
 
 }
 .pdf-footer a {
-  text-decoration: underline;  /* Removes underline */
-  color: #000000;         /* Default color - matches your navbar */
-  transition: color 0.3s ease;  /* Smooth color transition */
+  text-decoration: underline;  
+  color: #000000;        
+  transition: color 0.3s ease; 
 }
 
 .pdf-footer a:hover {
